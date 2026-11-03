@@ -1,10 +1,10 @@
 # AI-tool and model-use disclosure
 
-**Qneolabs / Handoff Auditor · Current draft · November 3, 2026**
+**Qneolabs / Handoff Auditor - Current disclosure - November 3, 2026**
 
 ## Development assistance
 
-OpenAI Codex assisted with implementation, code review, test creation and execution, documentation, synthetic examples, integration preparation and demo packaging. This includes the local replay interface and these entry materials. The project is AI-assisted development; it is not represented as entirely human-written code or documentation.
+ChatGPT and OpenAI Codex were used as development tools. Codex assisted with implementation, code review, test creation and execution, documentation, synthetic examples, integration preparation and demo packaging. This includes the local replay interface and these entry materials. The project is AI-assisted development; it is not represented as entirely human-written code or documentation.
 
 Development assistance is separate from the application's model runtime. The standalone request runner used Meta's Responses API with `muse-spark-1.3`. It does not invoke OpenAI models or an alternative model provider as an application fallback. The browser replay has no live model transport or credential-entry flow.
 
@@ -33,7 +33,7 @@ The saved Meta packet remains **DRAFT**, M-01 remains **OPEN**, and no reviewer 
 
 ## Selected caption-led video and editing
 
-The owner selected the 180-second silent caption-led edition, `handoff-auditor-caption-led-180s.mp4`, SHA-256 `c495596c4d89041f0e309b1ae35f7dc2fbf9610e9e50f7b87d67b7705efc64e1`. It has one video stream and **no audio stream**, voice or music. Codex assisted the script, caption adaptation, local editing and verification. The original application picture and timing are retained; 24 English captions are burned into a separate band below it. Playback replays a saved real Meta response and separately labelled deterministic examples, with no new model call. DRAFT, M-01 OPEN and reviewer-unrecorded states are preserved.
+The selected [demo is hosted on YouTube](https://youtu.be/GFu-Zam6310) as **Unlisted, caption-led and silent**. Its local source is the 180-second edition, `handoff-auditor-caption-led-180s.mp4`, SHA-256 `c495596c4d89041f0e309b1ae35f7dc2fbf9610e9e50f7b87d67b7705efc64e1`. This hash identifies the local source, not YouTube's transcoded stream. It has one video stream and **no audio stream**, voice or music. Codex assisted the script, caption adaptation, local editing and verification. The original application picture and timing are retained; 24 English captions are burned into a separate band below it. Playback replays a saved real Meta response and separately labelled deterministic examples, with **no live inference during the demo**. DRAFT, M-01 OPEN and reviewer-unrecorded states are preserved.
 
 The earlier two-minute and three-minute narrated editions used Microsoft Zira Desktop offline speech synthesis. Those files remain unchanged but are not the selected demonstration. Their narration redistribution rights were not established; no such audio is included in the selected edition. No font binaries, narration or video files are bundled in the source repository. The new caption treatment does not expand the source code's MIT grant to external media or third-party rights.
 
@@ -49,4 +49,6 @@ Meta's API documentation and the Meta legal-agent workshop were technical refere
 
 This document updates the project description to include the two experiments performed after the earlier preparation notes. Historical files remain unchanged. Their earlier “no real model evaluation” statements describe the preparation stage before those calls.
 
-This is a draft factual disclosure, not an organizer-approved interpretation of the runtime-model or AI-tool rules. The submission form answers are maintained in a separate private local entry draft. Track eligibility, organizer acceptance of this disclosure, rules/waiver acceptance and final submission still require their own evidence. No agreement acceptance, publishing, deployment or submission was performed in preparing these materials.
+As of November 3, 2026, the [repository](https://github.com/qneolabs/handoff-auditor) is public under MIT, Copyright (c) 2026 Krishna Thapa (Qneolabs). Cerebral Valley's submission email confirms **Qneolabs Handoff Auditor, entry #761**. Earlier preparation records and private entry drafts remain historical records, not the current submission status.
+
+This factual disclosure is not an organizer-approved interpretation of the runtime-model or AI-tool rules. Submission confirmation does not establish track eligibility, organizer acceptance of this disclosure or independently verified waiver acceptance. This documentation correction makes no new model request and does not alter the submitted entry or hosted video.

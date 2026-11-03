@@ -1,4 +1,4 @@
-# MIT license applied locally
+# MIT license for the published standalone source
 
 The owner explicitly approved MIT for the standalone Handoff Auditor source on November 3, 2026, with **Copyright (c) 2026 Krishna Thapa (Qneolabs)**. The canonical grant is in [LICENSE](LICENSE); the text was checked against the [Open Source Initiative MIT text](https://opensource.org/license/mit).
 
@@ -8,4 +8,8 @@ The saved Meta response is explicitly attributed as generated output from synthe
 
 The selected caption-led demonstration is a separate media artifact, not included in this source grant/archive. It has no audio. Older narration is not selected or relicensed by MIT. This targeted provenance/dependency/asset review identified no license conflict; it is not a determination of every possible third-party ownership claim.
 
-Applying MIT locally does not authorize a commit, public repository, video upload, agreement acceptance, deployment or submission. Organizer eligibility and account receipts remain separate.
+## Current status and historical scope - November 3, 2026
+
+The MIT grant is applied in the [public repository](https://github.com/qneolabs/handoff-auditor). Cerebral Valley's submission email confirms **Qneolabs Handoff Auditor, entry #761**. The selected [demo](https://youtu.be/GFu-Zam6310) is Unlisted, caption-led and silent; it remains a separate media artifact outside the source grant/archive.
+
+The earlier local license-finalization record predates publication and submission; its statement that MIT approval alone did not authorize those actions described that stage. The current documentation-only correction is separately owner-authorized and leaves the LICENSE bytes unchanged. Publication and submission do not expand this grant or establish organizer eligibility approval or independently verified waiver acceptance.

@@ -303,5 +303,60 @@
     "sourceCodeOrRuntimeBehaviorChanged": false,
     "sourceRowsPreserved": 39,
     "scope": "LICENSE, source documentation and release evidence only; private source, results and guards unchanged"
+  },
+  "documentationStatusUpdate": {
+    "checkedAtUtc": "2026-11-03T11:25:25.707356+00:00",
+    "baseCommit": "930cc65704a1428ddb5c36b6f7fdfffab84c46e7",
+    "scope": "Six owner-approved current-status documents and directly affected provenance/checksum records only",
+    "documentationFiles": [
+      "README.md",
+      "ORIGIN-AND-EVENT-WORK.md",
+      "REDACTION-NOTES.md",
+      "AI-TOOL-DISCLOSURE.md",
+      "VALIDATION.md",
+      "LICENSE-DECISION.md"
+    ],
+    "publicRepository": "https://github.com/qneolabs/handoff-auditor",
+    "submission": {
+      "name": "Qneolabs Handoff Auditor",
+      "entryNumber": 761,
+      "confirmation": "Cerebral Valley submission email; owner-verified current fact"
+    },
+    "selectedDemo": {
+      "url": "https://youtu.be/GFu-Zam6310",
+      "visibility": "Unlisted",
+      "captionLed": true,
+      "silent": true,
+      "liveInferenceDuringDemo": false
+    },
+    "license": "MIT",
+    "copyright": "Copyright (c) 2026 Krishna Thapa (Qneolabs)",
+    "developmentTools": [
+      "ChatGPT",
+      "Codex"
+    ],
+    "historicalMetaAttempts": 2,
+    "usableSavedResults": 1,
+    "newMetaCalls": 0,
+    "savedPacket": {
+      "status": "DRAFT",
+      "finding": "M-01",
+      "disposition": "OPEN",
+      "reviewer": null
+    },
+    "organizerEligibilityApprovalClaimed": false,
+    "independentlyVerifiedWaiverAcceptanceClaimed": false,
+    "sourceCodeOrRuntimeBehaviorChanged": false,
+    "originalSourceRowsPreserved": 39,
+    "originalCommitPreserved": true,
+    "priorReviewedSourceArchiveSha256": "363f222fbb1a2e26366ef4fa7e781a11727414ec27ab4a9f0bb2c5a689c901b0",
+    "historicalValidationScope": "Earlier local licensed-release record retained and explicitly labeled pre-publication",
+    "offlineValidation": {
+      "nodeVersion": "v25.1.0",
+      "appTestsPassed": 34,
+      "runtimeFixtureTestsPassed": 78,
+      "credentialEnvironmentExcluded": true,
+      "networkBlocked": true
+    }
   }
 }

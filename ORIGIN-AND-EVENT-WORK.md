@@ -20,4 +20,10 @@ No Work Core source, history, production data, credentials, mail, live authoriza
 
 Kai's human organizer FAQ requires a fresh standalone repo containing event work, excludes the existing codebase, and asks the demo to begin with a pre-existing/new-work statement. The project-specific thread also contains a Verified App claim about an October 26-or-later public repo and runtime-model rules; it is distinguished from direct human confirmation.
 
-A new Git timestamp is not proof of when every line was authored. This origin statement follows the preserved local artifact lineage and distinguishes prior planning; it is not an organizer eligibility ruling. The owner approved MIT and selected the silent caption-led video locally. Public visibility, an accessible video URL, required agreement evidence and final submission remain outstanding.
+A new Git timestamp is not proof of when every line was authored. This origin statement follows the preserved local artifact lineage and distinguishes prior planning; it is not an organizer eligibility ruling.
+
+## Current publication and submission status - November 3, 2026
+
+The standalone repository is public at [qneolabs/handoff-auditor](https://github.com/qneolabs/handoff-auditor), under MIT, Copyright (c) 2026 Krishna Thapa (Qneolabs). Cerebral Valley's submission email confirms **Qneolabs Handoff Auditor, entry #761**. The selected [demo](https://youtu.be/GFu-Zam6310) is Unlisted, caption-led and silent. It replays one usable saved result from two historical Meta attempts; no live inference occurs during the demo. ChatGPT and Codex assisted development, as described in [AI-TOOL-DISCLOSURE.md](AI-TOOL-DISCLOSURE.md).
+
+These facts supersede the earlier local-only publication/submission status. The saved packet remains DRAFT, M-01 OPEN, reviewer unrecorded. Submission confirmation does not establish organizer eligibility approval or independently verified waiver acceptance. The original commit and earlier validation/archive records are preserved; their pre-publication statements describe their dated scope.

@@ -1,0 +1,21 @@
+{
+  "revision": 2,
+  "authorizationId": "redacted-for-public-review",
+  "approvedMaxSpendUsd": 0.1,
+  "plannedCostUsd": 0.045056,
+  "pricing": {
+    "checkedAtUtc": "2026-11-02T22:08:04.603Z",
+    "source": "https://dev.meta.ai/docs/pricing-rate-limits",
+    "model": "muse-spark-1.3",
+    "mode": "standard",
+    "inputUsdPerMillion": 1.25,
+    "cachedInputUsdPerMillion": 0.15,
+    "outputUsdPerMillion": 4.25,
+    "verification": "Official pricing page opened and read during this authorization turn. No long-context premium. Provider-added steering context is not billed. No tools are enabled."
+  },
+  "timeoutMs": 60000,
+  "maxOutputTokens": 8192,
+  "requestSha256": "72cfcb474692f9f88106b3945d8dd70055880062d38ecf124567bd5b12344755",
+  "inputSha256": "5a0e316be11b63ae3611e7340e43b24cc8749e4c8bd1a20b51ba25001f513122",
+  "noRetries": true
+}

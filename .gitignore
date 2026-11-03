@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+runtime/.test-work/
+runtime/live-result/
+runtime/examples/
+authorization.json
+ONE-ATTEMPT.lock
+private-entry-status.json

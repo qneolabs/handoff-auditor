@@ -1,0 +1,307 @@
+{
+  "createdAtUtc": "2026-11-03T02:48:32.890350+00:00",
+  "copies": [
+    {
+      "path": "app/app.js",
+      "source": "handoff-auditor-meta-replay-demo/app/app.js",
+      "sourceSha256": "f671b6e8732f20506586de447e14eef3675c223c3258bdf38e43824dcbe6d7ad",
+      "copySha256": "e55feb1b25e407f5c70f1b17cda0666c190f034ffa51c0030ee4aabbad8c833e",
+      "unchanged": false
+    },
+    {
+      "path": "app/core.js",
+      "source": "handoff-auditor-meta-replay-demo/app/core.js",
+      "sourceSha256": "b2b9c5f82e69525ffa6b1b991537edb8b7af6b018491d829c68eda9a69d9a995",
+      "copySha256": "b2b9c5f82e69525ffa6b1b991537edb8b7af6b018491d829c68eda9a69d9a995",
+      "unchanged": true
+    },
+    {
+      "path": "app/DEMO.md",
+      "source": "handoff-auditor-meta-replay-demo/app/DEMO.md",
+      "sourceSha256": "b3b057abd64d71bad19d8e1c84c08b5eb6fafd5e6fa2f07daed560752909867f",
+      "copySha256": "b3b057abd64d71bad19d8e1c84c08b5eb6fafd5e6fa2f07daed560752909867f",
+      "unchanged": true
+    },
+    {
+      "path": "app/evaluation.js",
+      "source": "handoff-auditor-meta-replay-demo/app/evaluation.js",
+      "sourceSha256": "4804ce12428b773c22f7ca1d7c3a55c12de1a122e8456d3344dabc68496fb714",
+      "copySha256": "4804ce12428b773c22f7ca1d7c3a55c12de1a122e8456d3344dabc68496fb714",
+      "unchanged": true
+    },
+    {
+      "path": "app/favicon.svg",
+      "source": "handoff-auditor-meta-replay-demo/app/favicon.svg",
+      "sourceSha256": "da83c1db386d4e39d8d318f1e6d1ef4debcec13d86f31ee01fbd9c1299915253",
+      "copySha256": "da83c1db386d4e39d8d318f1e6d1ef4debcec13d86f31ee01fbd9c1299915253",
+      "unchanged": true
+    },
+    {
+      "path": "app/index.html",
+      "source": "handoff-auditor-meta-replay-demo/app/index.html",
+      "sourceSha256": "3e385b629cd12e2dd95c65d64373261dff366057feb128632a7c392c34c7b5e1",
+      "copySha256": "a611a1f904138df52748a3f629e337147e1a2136ad047d3e746bd642fb73a0e0",
+      "unchanged": false
+    },
+    {
+      "path": "app/launch.cmd",
+      "source": "handoff-auditor-meta-replay-demo/app/launch.cmd",
+      "sourceSha256": "cd1f3979165d26a564336e66436ba7c226070a1aecd736f695882fa9ce2304c1",
+      "copySha256": "cd1f3979165d26a564336e66436ba7c226070a1aecd736f695882fa9ce2304c1",
+      "unchanged": true
+    },
+    {
+      "path": "app/README.md",
+      "source": "handoff-auditor-meta-replay-demo/app/README.md",
+      "sourceSha256": "020cc5a45b79317d14020d8df1029a6b5b86c2999c3da235b9e00c8c5424087c",
+      "copySha256": "a745b235a87de426c82f62f69d942c34fba6e9fdca548a1f37ce6396d86488a0",
+      "unchanged": false
+    },
+    {
+      "path": "app/recording-data.js",
+      "source": "handoff-auditor-meta-replay-demo/app/recording-data.js",
+      "sourceSha256": "59a49ce83f0337bc8ba6fd9656be198909a04cc9b1449ff5a6c6ad13a0a854a3",
+      "copySha256": "c7c5756e5104509234c554b24d4e66f958a53b162bbd6eb87078d369cd3b643b",
+      "unchanged": false
+    },
+    {
+      "path": "app/recording.js",
+      "source": "handoff-auditor-meta-replay-demo/app/recording.js",
+      "sourceSha256": "3c14ec73781d6debf18746d47439bc97bdbef0b0688752f8b58badf59e48bdf6",
+      "copySha256": "3c14ec73781d6debf18746d47439bc97bdbef0b0688752f8b58badf59e48bdf6",
+      "unchanged": true
+    },
+    {
+      "path": "app/sample-evidence-pack.json",
+      "source": "handoff-auditor-meta-replay-demo/app/sample-evidence-pack.json",
+      "sourceSha256": "4a63aeff2fbe8e7c6fcc160bcff14b6983cee4dec1cfbf962e285d4b0b85c728",
+      "copySha256": "4a63aeff2fbe8e7c6fcc160bcff14b6983cee4dec1cfbf962e285d4b0b85c728",
+      "unchanged": true
+    },
+    {
+      "path": "app/samples.js",
+      "source": "handoff-auditor-meta-replay-demo/app/samples.js",
+      "sourceSha256": "762132010ecf5e644df352e9e2b9eb00b7eeb048d34efb649cc0addf070911ff",
+      "copySha256": "762132010ecf5e644df352e9e2b9eb00b7eeb048d34efb649cc0addf070911ff",
+      "unchanged": true
+    },
+    {
+      "path": "app/serve.py",
+      "source": "handoff-auditor-meta-replay-demo/app/serve.py",
+      "sourceSha256": "0ad75b37d808b586b960d78aa5950df73dbba891643d0791ec4bd685a2b0b55d",
+      "copySha256": "0ad75b37d808b586b960d78aa5950df73dbba891643d0791ec4bd685a2b0b55d",
+      "unchanged": true
+    },
+    {
+      "path": "app/styles.css",
+      "source": "handoff-auditor-meta-replay-demo/app/styles.css",
+      "sourceSha256": "2554ae454d3ec971efcef7235e88b175d1b45184d425a615a420670e7386c891",
+      "copySha256": "2554ae454d3ec971efcef7235e88b175d1b45184d425a615a420670e7386c891",
+      "unchanged": true
+    },
+    {
+      "path": "app/recorded-meta/continuation-packet.json",
+      "source": "handoff-auditor-meta-replay-demo/app/recorded-meta/continuation-packet.json",
+      "sourceSha256": "8e2624bfda8887fd01d28b9368308fd6aab5968ace7dfd2a83aa664787091222",
+      "copySha256": "34ed0ea5d90e68d57bb0bab5f026e949e488cbecd84e98399e40a52f963ed235",
+      "unchanged": false
+    },
+    {
+      "path": "app/recorded-meta/continuation-packet.md",
+      "source": "handoff-auditor-meta-replay-demo/app/recorded-meta/continuation-packet.md",
+      "sourceSha256": "b92aa132a4a5505f51c02fb7c629b205b0dc60f31ec11df521fa767ecb7f6db2",
+      "copySha256": "b92aa132a4a5505f51c02fb7c629b205b0dc60f31ec11df521fa767ecb7f6db2",
+      "unchanged": true
+    },
+    {
+      "path": "app/recorded-meta/preflight.json",
+      "source": "handoff-auditor-meta-replay-demo/app/recorded-meta/preflight.json",
+      "sourceSha256": "dfd21fe18a128ddde596313435751068bfe599939370ec65ab34be62d9a96428",
+      "copySha256": "bacb989d810411216e92cbcdacd643b0bbb06723bed87bba0ea84c89aecc7822",
+      "unchanged": false
+    },
+    {
+      "path": "app/recorded-meta/response-evidence.json",
+      "source": "handoff-auditor-meta-replay-demo/app/recorded-meta/response-evidence.json",
+      "sourceSha256": "5e33949318b34f2f06e3ef7a52ac9369e888b2ca832229cd1ec6e342a5aadef0",
+      "copySha256": "7b52df2ea034a03d82ee6b4a5e45c58443cbeaf83f02f8a2a660cf4617d82cf7",
+      "unchanged": false
+    },
+    {
+      "path": "app/recorded-meta/result-receipt.json",
+      "source": "handoff-auditor-meta-replay-demo/app/recorded-meta/result-receipt.json",
+      "sourceSha256": "12e8ca542cabc39904f62e4f01bf93c39736db6105c80acc279d43362e365061",
+      "copySha256": "1ce63f30f0933c42ece7cb3e6f84b9e65a478bd218da295ed4f761711f3cd357",
+      "unchanged": false
+    },
+    {
+      "path": "app/tests/core.test.cjs",
+      "source": "handoff-auditor-meta-replay-demo/app/tests/core.test.cjs",
+      "sourceSha256": "302616d494894aa9764f2e4424e3af6fa0d6975f128344e034bbf3f5ab569b00",
+      "copySha256": "302616d494894aa9764f2e4424e3af6fa0d6975f128344e034bbf3f5ab569b00",
+      "unchanged": true
+    },
+    {
+      "path": "app/tests/no-network.cjs",
+      "source": "handoff-auditor-meta-replay-demo/app/tests/no-network.cjs",
+      "sourceSha256": "e26cb0bb43d53b4efa8f167c976b8ab6674e429e5c467758893b4fdc8b41d647",
+      "copySha256": "e26cb0bb43d53b4efa8f167c976b8ab6674e429e5c467758893b4fdc8b41d647",
+      "unchanged": true
+    },
+    {
+      "path": "app/tests/recording.test.cjs",
+      "source": "handoff-auditor-meta-replay-demo/app/tests/recording.test.cjs",
+      "sourceSha256": "ca99733114a15b66d5df026a1993d2f0c4f3aaf05b965841232bb9bc2784c232",
+      "copySha256": "ca99733114a15b66d5df026a1993d2f0c4f3aaf05b965841232bb9bc2784c232",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/diagnostics.cjs",
+      "source": "handoff-auditor-meta-test-v2/diagnostics.cjs",
+      "sourceSha256": "7505d31edd7f1871e494939c7e1e3b2c764c77ba7220805dad58ae93848a1bb2",
+      "copySha256": "7505d31edd7f1871e494939c7e1e3b2c764c77ba7220805dad58ae93848a1bb2",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/fixtures.cjs",
+      "source": "handoff-auditor-meta-test-v2/fixtures.cjs",
+      "sourceSha256": "00e7e2bee06e35034992eb1a37d934599ffc928e7b16a382728de91206629d2c",
+      "copySha256": "00e7e2bee06e35034992eb1a37d934599ffc928e7b16a382728de91206629d2c",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/integration.cjs",
+      "source": "handoff-auditor-meta-test-v2/integration.cjs",
+      "sourceSha256": "d66a164b5c760ee26294c2b47c43fc41c7853f4375047e2ca6346d3e48ac8ac4",
+      "copySha256": "d66a164b5c760ee26294c2b47c43fc41c7853f4375047e2ca6346d3e48ac8ac4",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/meta-contract.cjs",
+      "source": "handoff-auditor-meta-test-v2/meta-contract.cjs",
+      "sourceSha256": "52c6c945313c1a541a7952ca18d08145589d9a2bfb280884c22465417e54b8f8",
+      "copySha256": "52c6c945313c1a541a7952ca18d08145589d9a2bfb280884c22465417e54b8f8",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/meta-transport.cjs",
+      "source": "handoff-auditor-meta-test-v2/meta-transport.cjs",
+      "sourceSha256": "4d6380741dd08853b72e0718e7e184d7d5b87d558043412bb54c434207e129a5",
+      "copySha256": "4d6380741dd08853b72e0718e7e184d7d5b87d558043412bb54c434207e129a5",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/proposal.cjs",
+      "source": "handoff-auditor-meta-test-v2/proposal.cjs",
+      "sourceSha256": "487475fa6319d78a304abe268c7caba22eda62842491b0bbdb414ffefe746498",
+      "copySha256": "366e3aaa6881e7cf8bda4b20802a84b028ada1c675a3fa22c2845e09e2f7e9bf",
+      "unchanged": false
+    },
+    {
+      "path": "runtime/rehearse.cjs",
+      "source": "handoff-auditor-meta-test-v2/rehearse.cjs",
+      "sourceSha256": "5350bc570663c7eab836158c24f3e682a193e7d4390683b3d5fc43805979f424",
+      "copySha256": "5350bc570663c7eab836158c24f3e682a193e7d4390683b3d5fc43805979f424",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/run-once.cjs",
+      "source": "handoff-auditor-meta-test-v2/run-once.cjs",
+      "sourceSha256": "63980f2b567ff617c5b162a771b93f748c380c0235ac10ec975453d5a2cb0123",
+      "copySha256": "1604432300cee6be2f0cad705d38219cba893c052270b43de227a4f5fc8f0aa5",
+      "unchanged": false
+    },
+    {
+      "path": "runtime/baseline/core.js",
+      "source": "handoff-auditor-meta-test-v2/baseline/core.js",
+      "sourceSha256": "b2b9c5f82e69525ffa6b1b991537edb8b7af6b018491d829c68eda9a69d9a995",
+      "copySha256": "b2b9c5f82e69525ffa6b1b991537edb8b7af6b018491d829c68eda9a69d9a995",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/baseline/evaluation.js",
+      "source": "handoff-auditor-meta-test-v2/baseline/evaluation.js",
+      "sourceSha256": "4804ce12428b773c22f7ca1d7c3a55c12de1a122e8456d3344dabc68496fb714",
+      "copySha256": "4804ce12428b773c22f7ca1d7c3a55c12de1a122e8456d3344dabc68496fb714",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/baseline/samples.js",
+      "source": "handoff-auditor-meta-test-v2/baseline/samples.js",
+      "sourceSha256": "762132010ecf5e644df352e9e2b9eb00b7eeb048d34efb649cc0addf070911ff",
+      "copySha256": "762132010ecf5e644df352e9e2b9eb00b7eeb048d34efb649cc0addf070911ff",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/tests/diagnostics.test.cjs",
+      "source": "handoff-auditor-meta-test-v2/tests/diagnostics.test.cjs",
+      "sourceSha256": "213c07d56dfeaa5ac2198c17b433a17e06a0d04f5614663bc9dcb5aaa4cc4482",
+      "copySha256": "213c07d56dfeaa5ac2198c17b433a17e06a0d04f5614663bc9dcb5aaa4cc4482",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/tests/integration.test.cjs",
+      "source": "handoff-auditor-meta-test-v2/tests/integration.test.cjs",
+      "sourceSha256": "083ad723817d5e1e26fcbbc295c43c4e34f773b15156865469a6c8ed58d5eca5",
+      "copySha256": "083ad723817d5e1e26fcbbc295c43c4e34f773b15156865469a6c8ed58d5eca5",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/tests/no-network.cjs",
+      "source": "handoff-auditor-meta-test-v2/tests/no-network.cjs",
+      "sourceSha256": "e26cb0bb43d53b4efa8f167c976b8ab6674e429e5c467758893b4fdc8b41d647",
+      "copySha256": "e26cb0bb43d53b4efa8f167c976b8ab6674e429e5c467758893b4fdc8b41d647",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/tests/runner.test.cjs",
+      "source": "handoff-auditor-meta-test-v2/tests/runner.test.cjs",
+      "sourceSha256": "bd1755a3b35faa9ff897f711fa32b176449de2ccdd43e8a2e8971f3f2f890789",
+      "copySha256": "29c8339641dc079186215b456ea1dfd3c640bc7dd2ae1ef8b47d89cbe95d18d4",
+      "unchanged": false
+    },
+    {
+      "path": "runtime/tests/transport.test.cjs",
+      "source": "handoff-auditor-meta-test-v2/tests/transport.test.cjs",
+      "sourceSha256": "5c2b57b92a59ed6a8781ed8570ad09868ab2d72d4e8106c63f6cb4def1b36624",
+      "copySha256": "5c2b57b92a59ed6a8781ed8570ad09868ab2d72d4e8106c63f6cb4def1b36624",
+      "unchanged": true
+    },
+    {
+      "path": "runtime/baseline/tests/core.test.cjs",
+      "source": "handoff-auditor-meta-test-v2/baseline/tests/core.test.cjs",
+      "sourceSha256": "302616d494894aa9764f2e4424e3af6fa0d6975f128344e034bbf3f5ab569b00",
+      "copySha256": "302616d494894aa9764f2e4424e3af6fa0d6975f128344e034bbf3f5ab569b00",
+      "unchanged": true
+    }
+  ],
+  "adaptedFile": "runtime/tests/runner.test.cjs",
+  "adaptation": "Portable scratch path and omission of two private-sibling-dependent tests remain. Sharing-only consumed-ID fingerprint checks and regression tests were added; private originals are unchanged.",
+  "excluded": "Actual authorizations, real guards, key-entry helpers, live launchers, Work Core source/history, private planning and email. Original evidence stays untouched.",
+  "publicationAdaptations": "Plaintext provider request/response/authorization identifier redaction, bundled-data hash refresh, explicit sharing-copy labels and documentation. Sharing proposal and authorization validator now retain only consumed-ID SHA-256 denylist fingerprints; execution/lock body unchanged.",
+  "privacyCorrection": {
+    "checkedAtUtc": "2026-11-03T05:08:35.631031+00:00",
+    "changedRuntimeFiles": [
+      "runtime/proposal.cjs",
+      "runtime/run-once.cjs",
+      "runtime/tests/runner.test.cjs"
+    ],
+    "consumedAuthorizationsCovered": 2,
+    "originalSourceHashesPreserved": true,
+    "liveModelCalls": 0
+  },
+  "licenseAndMediaFinalization": {
+    "checkedAtUtc": "2026-11-03T08:46:20.376085+00:00",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2026 Krishna Thapa (Qneolabs)",
+    "licenseSha256": "fd604955a1f3a0a983e57f66d0de3a0a0e5ae02a647fa584c10281d2ce35a433",
+    "ownerApproved": true,
+    "selectedVideoFilename": "handoff-auditor-caption-led-180s.mp4",
+    "selectedVideoSha256": "c495596c4d89041f0e309b1ae35f7dc2fbf9610e9e50f7b87d67b7705efc64e1",
+    "videoBundled": false,
+    "audioStreams": 0,
+    "sourceCodeOrRuntimeBehaviorChanged": false,
+    "sourceRowsPreserved": 39,
+    "scope": "LICENSE, source documentation and release evidence only; private source, results and guards unchanged"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "title": "Handoff Auditor — Continuation Packet",
+  "mode": "meta-live",
+  "reviewStatus": "draft",
+  "reviewer": null,
+  "project": {
+    "id": "demo-semantic",
+    "name": "Synthetic acceptance contradiction",
+    "synthetic": true
+  },
+  "limitation": "Meta output contains untrusted proposals, not verified facts. Structured claim checks evaluate supplied declarations only. Exact quotes and valid source IDs do not prove semantic entailment, authenticity, freshness or permission. Human review never establishes production acceptance. All original claims, evidence gaps and decisions remain visible.",
+  "handoff": {
+    "title": "A deliberately bounded handoff",
+    "claims": [
+      {
+        "id": "C-01",
+        "text": "The owner has accepted this project for live use.",
+        "stage": "accepted",
+        "evidenceIds": [
+          "E-01"
+        ]
+      }
+    ]
+  },
+  "claimChecks": [
+    {
+      "claimId": "C-01",
+      "claimedStage": "accepted",
+      "status": "matching-record",
+      "supportingEvidenceIds": [
+        "E-01"
+      ],
+      "missingEvidenceIds": [],
+      "note": "A matching declared record is present; its authenticity and truth have not been independently verified."
+    }
+  ],
+  "findings": [
+    {
+      "id": "M-01",
+      "type": "semantic-contradiction",
+      "severity": "high",
+      "title": "Claimed live acceptance contradicted by evidence prose",
+      "summary": "Claim C-01 asserts live owner acceptance, but E-01 prose contradicts it. Quote 'Owner approval is still pending.' shows approval has not been given. Quote 'live acceptance has not occurred.' directly denies the claimed live use acceptance. The record kind 'acceptance' does not override the prose.",
+      "recommendation": "Have a human verify actual owner acceptance status and obtain a corrected acceptance record if needed; do not treat the kind label or reviewer name as proof of acceptance.",
+      "claimIds": [
+        "C-01"
+      ],
+      "decisionIds": [],
+      "citations": [
+        {
+          "evidenceId": "E-01",
+          "quote": "Owner approval is still pending."
+        },
+        {
+          "evidenceId": "E-01",
+          "quote": "live acceptance has not occurred."
+        }
+      ],
+      "origin": "meta-model-proposal",
+      "review": {
+        "disposition": "open",
+        "note": ""
+      }
+    }
+  ],
+  "rejectedProposals": [],
+  "evidence": [
+    {
+      "id": "E-01",
+      "projectId": "demo-semantic",
+      "title": "Mislabelled acceptance record",
+      "kind": "acceptance",
+      "reviewer": "Synthetic owner",
+      "text": "Owner approval is still pending. The local checks passed, but live acceptance has not occurred.",
+      "verifies": [
+        "C-01"
+      ]
+    }
+  ],
+  "decisions": [],
+  "continuation": {
+    "unresolvedFindingIds": [
+      "M-01"
+    ],
+    "acknowledgedFindingIds": [],
+    "nextAction": "Review unresolved findings and rejected citations before relying on this packet.",
+    "acceptance": "This tool does not assert release readiness or production acceptance."
+  },
+  "integration": {
+    "provider": "Meta",
+    "configuredModel": "muse-spark-1.3",
+    "endpoint": "https://api.meta.ai/v1/responses",
+    "mode": "meta-live",
+    "modelStatus": "completed",
+    "modelRequestsAttempted": 1,
+    "responseProvenance": "provider-response",
+    "promptVersion": "handoff-auditor-v1",
+    "inputSha256": "5a0e316be11b63ae3611e7340e43b24cc8749e4c8bd1a20b51ba25001f513122",
+    "requestSha256": "72cfcb474692f9f88106b3945d8dd70055880062d38ecf124567bd5b12344755",
+    "transportDiagnostics": {
+      "requestAttempted": true,
+      "httpStatus": 200,
+      "requestId": "redacted-for-public-review",
+      "timeoutMs": 60000,
+      "elapsedMs": 21291,
+      "responseBytes": 25545,
+      "failureCode": null,
+      "providerErrorCode": null,
+      "providerErrorType": null
+    },
+    "sourceValidation": "Reference membership and verbatim quotations only; semantic entailment and authenticity require human review."
+  },
+  "diagnostics": {
+    "schemaVersion": 1,
+    "responseReceived": true,
+    "responseId": "redacted-for-public-review",
+    "modelReported": "muse-spark-1.3",
+    "responseStatus": "completed",
+    "configuredMaxOutputTokens": 8192,
+    "providerReportedMaxOutputTokens": 8192,
+    "incompleteDetails": {
+      "present": false,
+      "reason": null,
+      "reasonValuePresentButNotRetained": false
+    },
+    "providerError": {
+      "present": false,
+      "code": null,
+      "type": null
+    },
+    "usage": {
+      "inputTokens": 537,
+      "outputTokens": 2268,
+      "totalTokens": 2805,
+      "cachedInputTokens": 0,
+      "reasoningTokens": 2027,
+      "nonReasoningOutputTokens": 241,
+      "outputAllowanceExhausted": false
+    },
+    "outputSummary": {
+      "totalItems": 2,
+      "itemTypes": {
+        "reasoning": 1,
+        "message": 1
+      },
+      "itemStatuses": {
+        "completed": 2
+      },
+      "visibleTextItems": 1,
+      "visibleTextCharacters": 953,
+      "refusalItems": 0
+    },
+    "classification": "response-awaiting-validation",
+    "warnings": [],
+    "validationBoundary": "Provider diagnostics describe execution, not semantic accuracy. Missing diagnostic fields remain unknown."
+  }
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; font-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Handoff Auditor — Offline Meta Replay</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="core.js" defer></script>
+  <script src="samples.js" defer></script>
+  <script src="evaluation.js" defer></script>
+  <script src="recording-data.js" defer></script>
+  <script src="recording.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to evidence desk</a>
+  <aside class="sidebar">
+    <a class="brand" href="index.html" aria-label="Handoff Auditor home"><span class="brand-symbol">h<span>↗</span></span><span>HANDOFF<br><b>AUDITOR</b></span></a>
+    <div class="rail-label">YOUR WORKSPACE</div>
+    <div class="desk-label"><span class="square-dot"></span> Evidence desk <span class="tiny-arrow">↗</span></div>
+    <div class="rail-note">A clearer starting point<br>for the next person.</div>
+    <div class="rail-bottom"><span class="status-dot"></span> Local prototype<br><small>No accounts. No new model calls.<br>Independent of Work Core.</small><span class="version">QNEOLABS / EXPERIMENT 01</span></div>
+  </aside>
+  <main id="main">
+    <header class="topline"><span class="breadcrumb">Workspace <span>/</span> Evidence desk</span><button class="text-button" id="open-evaluation">20-case evaluation <span aria-hidden="true">↗</span></button></header>
+    <section class="hero"><div><p class="eyebrow">CONTINUITY STARTS WITH EVIDENCE</p><h1>Trust the handoff.<br><em>Check the claims.</em></h1><p class="hero-copy">See what the evidence supports, review what it doesn’t,<br class="desktop-break"> and leave a clear next step.</p></div><div class="mode-note"><span class="status-dot"></span><b id="mode-title">Offline replay</b><p id="mode-description">A saved Meta response on synthetic evidence.<br>No new model call.</p></div></section>
+    <nav class="steps" aria-label="Workflow">
+      <button class="step active" id="step-evidence" aria-current="step"><span>01</span> Evidence <i>↗</i></button>
+      <button class="step" id="step-review" disabled><span>02</span> Review <i>↗</i></button>
+      <button class="step" id="step-export" disabled><span>03</span> Continuation packet <i>↗</i></button>
+    </nav>
+    <div id="notice" class="notice" role="alert" hidden></div>
+    <section id="recording-banner" class="recording-banner" aria-labelledby="recording-heading" hidden>
+      <div><p class="eyebrow">RECORDED RESPONSE / OFFLINE REPLAY</p><h2 id="recording-heading">One saved response. An open finding.</h2><p>Recorded 3 Nov 2026, 05:26 Bangkok · Muse Spark 1.3 · synthetic evidence</p></div>
+      <dl class="recording-facts"><div><dt>Original request</dt><dd>1 request · 0 retries</dd></div><div><dt>Recorded token cost</dt><dd>US$0.01031025 <small>Calculated, not a billing receipt</small></dd></div><div><dt>This replay</dt><dd>0 new model calls</dd></div></dl>
+      <p class="recording-boundary">This sharing copy removes provider tracking and authorization identifiers. The saved packet stays draft and M-01 stays open. Review controls are read-only for this recording. Source labels do not establish owner acceptance.</p>
+    </section>
+    <section id="evidence-screen" class="screen">
+      <div class="section-heading"><div><p class="eyebrow">01 / THE RECORD</p><h2>Start with the source.</h2></div><div class="import-actions"><button class="secondary small" id="edit-pack">Inspect / edit JSON</button><label class="secondary small file-button">Import JSON<input type="file" id="file-input" accept=".json,application/json"></label></div></div>
+      <div class="sample-bar" id="dropzone"><div><label for="sample-select">Choose a local example</label><select id="sample-select"><option value="meta-recording">Recorded Meta result · offline replay</option><option value="readiness">Unsupported readiness + stale decision</option><option value="conflict">Two current decisions disagree</option><option value="clean">A bounded, supported handoff</option></select></div><p>Or drop a JSON evidence pack here.<br><span>Files stay in this tab. Loading a pack starts a fresh review.</span></p></div>
+      <div class="workspace-grid"><div class="record-column"><section class="paper handoff-paper"><div class="paper-top"><span class="eyebrow" id="project-label"></span><span class="tag" id="data-label">SYNTHETIC DATA</span></div><h3 id="handoff-title"></h3><div id="claims-list"></div><div class="paper-foot"><span class="mini-icon">↳</span> A handoff is a set of claims. The evidence is a separate record.</div></section>
+      <section class="source-section"><div class="row-heading"><h3>Evidence register</h3><span id="source-count" class="count"></span></div><div id="source-list"></div></section><section class="source-section" id="decisions-section"><div class="row-heading"><h3>Decision register</h3><span id="decision-count" class="count"></span></div><div id="decision-list"></div></section></div>
+      <aside class="audit-card"><div class="audit-icon">↗</div><p class="eyebrow">A SECOND LOOK</p><h3>Keep the next step<br>honest.</h3><p id="audit-copy">Check whether each claim has the right kind of record. Surface stale references and decisions that disagree.</p><div class="audit-check"><span>01</span> Claim → evidence stage</div><div class="audit-check"><span>02</span> Current → superseded decisions</div><div class="audit-check"><span>03</span> Source → exact quotation</div><button class="primary" id="run-audit">Run simulated audit <span>→</span></button><small id="audit-hint">Deterministic checks, not semantic AI analysis.<br>Running again clears the current review.</small></aside></div>
+    </section>
+    <section id="review-screen" class="screen" hidden>
+      <div class="section-heading"><div><p class="eyebrow">02 / HUMAN JUDGMENT</p><h2 id="review-heading" tabindex="-1">A few things to resolve.</h2></div><button class="primary small" id="go-packet">Preview packet <span>→</span></button></div>
+      <div id="audit-summary" class="summary-strip"></div><div class="review-layout"><div id="findings-list"></div><aside class="review-aside"><p class="eyebrow">THE REVIEW BOUNDARY</p><h3>Acknowledged<br>isn’t accepted.</h3><p id="review-aside-copy">Acknowledging a finding records your review. It never upgrades the project’s release or acceptance status.</p><div id="reviewer-fields"><label for="reviewer-name">Reviewer name <span>(self-reported)</span></label><input id="reviewer-name" maxlength="200" placeholder="Your name"><p class="micro">A named reviewer and a disposition for every finding are needed for a reviewed packet. You can export an unfinished draft at any time.</p></div><div class="review-progress"><span id="review-progress-label"></span><progress id="review-progress" value="0" max="1"></progress></div></aside></div>
+    </section>
+    <section id="export-screen" class="screen" hidden>
+      <div class="section-heading"><div><p class="eyebrow">03 / A BETTER CONTINUATION</p><h2 tabindex="-1" id="export-heading">Leave a clear next step.</h2></div><span class="tag" id="packet-status">DRAFT</span></div><div class="export-intro"><p id="packet-explanation"></p><div class="export-actions"><button class="primary small" id="download-markdown">Download Markdown <span>↓</span></button><button class="secondary small" id="download-json">Download JSON <span>↓</span></button></div></div><div class="packet-paper"><div class="packet-top"><span>CONTINUATION PACKET</span><span id="packet-mode">OFFLINE REPLAY</span></div><pre id="packet-preview" tabindex="0" aria-label="Continuation packet preview"></pre></div>
+    </section>
+    <footer><span>Built for careful continuation.</span><span id="footer-note">Saved recording · local replay · no new model calls.</span></footer>
+    <div id="live-status" class="sr-only" aria-live="polite"></div>
+  </main>
+  <dialog id="json-dialog" class="modal wide" aria-labelledby="json-title"><div class="dialog-top"><div><p class="eyebrow">LOCAL INPUT</p><h2 id="json-title">Inspect the evidence pack.</h2></div><button class="close-dialog" data-close="json-dialog" aria-label="Close JSON editor">×</button></div><p>All fields are supplied declarations. Source text is treated as data, never instructions. Loading changes starts a fresh review.</p><label class="sr-only" for="json-editor">Evidence pack JSON</label><textarea id="json-editor" spellcheck="false" aria-describedby="json-error"></textarea><p id="json-error" class="error-text" role="alert"></p><div class="dialog-actions"><button class="secondary" id="download-sample">Download this input</button><button class="primary" id="apply-json">Load this pack <span>→</span></button></div></dialog>
+  <dialog id="source-dialog" class="modal" aria-labelledby="source-title"><div class="dialog-top"><div><p class="eyebrow" id="source-meta"></p><h2 id="source-title"></h2></div><button class="close-dialog" data-close="source-dialog" aria-label="Close source">×</button></div><pre id="source-text"></pre><p class="micro">Exact source text from the current pack. Its authenticity has not been independently verified.</p></dialog>
+  <dialog id="evaluation-dialog" class="modal wide" aria-labelledby="evaluation-title"><div class="dialog-top"><div><p class="eyebrow">SYNTHETIC QUALIFICATION</p><h2 id="evaluation-title">Test the boundaries.</h2></div><button class="close-dialog" data-close="evaluation-dialog" aria-label="Close evaluation">×</button></div><p>Twenty fixed cases exercise evidence stages, project boundaries, citation validation, and review/export behavior. These checks do not measure model quality.</p><button class="primary" id="run-evaluation">Run 20 local checks <span>→</span></button><p id="evaluation-summary" role="status"></p><ol id="evaluation-results"></ol></dialog>
+</body>
+</html>

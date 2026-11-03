@@ -1,0 +1,14 @@
+{
+  "name": "qneolabs-handoff-auditor-local-review",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local review candidate. Offline replay and guarded fixture tests; no publishing or live launch command.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test:app": "node --require ./app/tests/no-network.cjs --test app/tests/core.test.cjs app/tests/recording.test.cjs",
+    "test:runtime": "node --require ./runtime/tests/no-network.cjs --test runtime/baseline/tests/core.test.cjs runtime/tests/integration.test.cjs runtime/tests/transport.test.cjs runtime/tests/diagnostics.test.cjs runtime/tests/runner.test.cjs",
+    "test": "npm run test:app && npm run test:runtime"
+  }
+}

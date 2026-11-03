@@ -1,0 +1,11 @@
+# MIT license applied locally
+
+The owner explicitly approved MIT for the standalone Handoff Auditor source on November 3, 2026, with **Copyright (c) 2026 Krishna Thapa (Qneolabs)**. The canonical grant is in [LICENSE](LICENSE); the text was checked against the [Open Source Initiative MIT text](https://opensource.org/license/mit).
+
+The grant covers the owner's original standalone code, documentation and original synthetic examples, to the extent the owner holds rights. It does not claim ownership of Work Core, Meta models/services, trademarks, external media, Windows fonts, or other third-party material. Work Core source/history and private records are excluded. No fonts, audio, video, third-party package libraries or vendor SDK code are bundled. Node.js, Python and system fonts are prerequisites, not redistributed components. The local source-lineage record identifies independently prepared code and a small original SVG icon; no copied workshop code or conflicting third-party notice was identified.
+
+The saved Meta response is explicitly attributed as generated output from synthetic inputs. [Meta's API terms, sections 1 and 4.1](https://dev.meta.ai/legal/terms-of-service), checked November 3, permit incorporation of output subject to their terms and state that Meta does not claim input/output ownership as between the parties and to the extent permitted by law. Output can still carry third-party rights. The inspected short synthetic finding contains no identified third-party code or license notice. MIT does not replace Meta service terms or grant rights in Meta technology, and it makes no representation that AI output is copyrightable or unique.
+
+The selected caption-led demonstration is a separate media artifact, not included in this source grant/archive. It has no audio. Older narration is not selected or relicensed by MIT. This targeted provenance/dependency/asset review identified no license conflict; it is not a determination of every possible third-party ownership claim.
+
+Applying MIT locally does not authorize a commit, public repository, video upload, agreement acceptance, deployment or submission. Organizer eligibility and account receipts remain separate.

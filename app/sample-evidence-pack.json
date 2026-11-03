@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "id": "demo-atlas",
+    "name": "Atlas / inventory assistant",
+    "synthetic": true
+  },
+  "handoff": {
+    "title": "Ready to pass the baton?",
+    "claims": [
+      {
+        "id": "C-01",
+        "text": "The inventory assistant is production-ready and accepted by the owner.",
+        "stage": "accepted",
+        "evidenceIds": [
+          "E-01"
+        ]
+      },
+      {
+        "id": "C-02",
+        "text": "The email-only alert route is implemented.",
+        "stage": "implemented",
+        "evidenceIds": [
+          "E-02",
+          "E-03"
+        ]
+      }
+    ]
+  },
+  "evidence": [
+    {
+      "id": "E-01",
+      "projectId": "demo-atlas",
+      "title": "Local regression results",
+      "kind": "test",
+      "text": "Synthetic run: 24 of 24 local checks passed. Live provider delivery and owner acceptance have not been tested.",
+      "verifies": [
+        "C-01"
+      ]
+    },
+    {
+      "id": "E-02",
+      "projectId": "demo-atlas",
+      "title": "Email route implementation",
+      "kind": "implementation",
+      "text": "Synthetic implementation record: the email-only route was added and exercised with a local fake transport.",
+      "verifies": [
+        "C-02"
+      ]
+    },
+    {
+      "id": "E-03",
+      "projectId": "demo-atlas",
+      "title": "Previous notification decision",
+      "kind": "decision",
+      "text": "Previous decision: use email only for notifications. This decision has been superseded.",
+      "verifies": []
+    },
+    {
+      "id": "E-04",
+      "projectId": "demo-atlas",
+      "title": "Current notification decision",
+      "kind": "decision",
+      "text": "Current decision: provide an in-app alert, with email as an optional channel.",
+      "verifies": []
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D-01",
+      "projectId": "demo-atlas",
+      "topic": "Notification route",
+      "value": "Email only",
+      "status": "superseded",
+      "evidenceIds": [
+        "E-03"
+      ]
+    },
+    {
+      "id": "D-02",
+      "projectId": "demo-atlas",
+      "topic": "Notification route",
+      "value": "In-app with optional email",
+      "status": "active",
+      "evidenceIds": [
+        "E-04"
+      ]
+    }
+  ]
+}
